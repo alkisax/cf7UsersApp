@@ -9,7 +9,7 @@ const swaggerDocument = require('./swagger')
 
 const user = require('./routes/user.routs')
 const userProduct = require('./routes/user.products.routes')
-const auth = require('./routes/auth.roots')
+const auth = require('./routes/auth.routs')
 
 // app.use(cors ({
 //   // origin: '*'
