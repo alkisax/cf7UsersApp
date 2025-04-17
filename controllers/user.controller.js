@@ -76,7 +76,7 @@ exports.create = async (req,res) => {
     })
   } catch (err) {
     console.log("problem in creating user", err)    
-    res.status(404).json({
+    res.status(400).json({
       status: false,
       data: err
     })
